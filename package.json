@@ -1,0 +1,36 @@
+{
+  "name": "vici",
+  "version": "1.0.0",
+  "description": "Docker Deployment for side projects :rocket:",
+  "main": "server.js",
+  "scripts": {
+    "test": "exit 1",
+    "start": "node server.js",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptnull/vici.git"
+  },
+  "keywords": [
+    "deploy",
+    "docker"
+  ],
+  "author": "scriptnull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptnull/vici/issues"
+  },
+  "homepage": "https://github.com/scriptnull/vici#readme",
+  "dependencies": {
+    "hapi": "^15.0.2",
+    "hapi-status": "^2.1.0",
+    "js-yaml": "^3.6.1",
+    "queue": "^4.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0"
+  }
+}

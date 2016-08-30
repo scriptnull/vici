@@ -1,0 +1,3 @@
+actions:
+  - name: deploy-wordist
+    script: "./deploy.js"
