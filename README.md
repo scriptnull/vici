@@ -1,2 +1,2 @@
 # vici
-Docker deployments for side projects :rocket:
+Devops for side projects :rocket:
