@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha tests/",
-    "start": "node server.js",
+    "start": "node vici.init.js",
     "dev": "gulp dev"
   },
   "repository": {
