@@ -1,2 +1,2 @@
 # vici
-Your webhook robot :rocket:
+Your webhook robot :ribbon:
