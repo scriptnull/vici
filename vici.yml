@@ -1,6 +1,6 @@
 actions:
   - name: echoHello
-    script: "./tests/data/echoHello.sh"
+    script: "./scripts/echoHello.sh"
     # on_success:
     #   - do: notify-gitter
     #     payload:
