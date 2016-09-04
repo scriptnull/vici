@@ -7,4 +7,5 @@ build:
   ci:
     - npm install
     - npm start &
+    - sleep 2s
     - npm test

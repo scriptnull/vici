@@ -18,7 +18,7 @@ describe('vici.yml module', function () {
 
   it('should fail for empty path yml', function (done) {
     var config = {
-      viciYmlPath: '/home/scriptnull/github/vici/tests/data/empty.vici.yml',
+      viciYmlPath: './tests/data/empty.vici.yml',
       callback: function (err, result) {
         if (err) {
           return done()
@@ -32,7 +32,7 @@ describe('vici.yml module', function () {
 
   it('should pass for valid path yml', function (done) {
     var config = {
-      viciYmlPath: '/home/scriptnull/github/vici/tests/data/valid.vici.yml',
+      viciYmlPath: './tests/data/valid.vici.yml',
       callback: function (err, result) {
         if (err) {
           return done(err)
@@ -54,7 +54,7 @@ describe('vici.yml module', function () {
 
   it('should fail for invalid actions format in yml', function (done) {
     var config = {
-      viciYmlPath: '/home/scriptnull/github/vici/tests/data/invalid-actions.vici.yml',
+      viciYmlPath: './tests/data/invalid-actions.vici.yml',
       callback: function (err, result) {
         if (err) {
           return done()
