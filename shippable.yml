@@ -4,9 +4,6 @@ node_js:
   - 0.12
 
 build:
-  pre_ci:
-    - npm install
-    - npm install -g mocha
-
   ci:
-    - mocha tests/
+    - npm install
+    - npm test

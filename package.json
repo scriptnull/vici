@@ -4,7 +4,7 @@
   "description": "Docker Deployment for side projects :rocket:",
   "main": "server.js",
   "scripts": {
-    "test": "exit 1",
+    "test": "mocha tests/",
     "start": "node server.js",
     "dev": "gulp dev"
   },
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.1.0"
+    "gulp-nodemon": "^2.1.0",
+    "mocha": "^3.0.2"
   }
 }
