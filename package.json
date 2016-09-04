@@ -26,7 +26,7 @@
     "hapi": "^15.0.2",
     "hapi-status": "^2.1.0",
     "js-yaml": "^3.6.1",
-    "queue": "^4.0.0",
+    "superagent": "^2.2.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {

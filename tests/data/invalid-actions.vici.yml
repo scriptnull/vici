@@ -1,0 +1,3 @@
+actions:
+  name: action1
+  script: "./script1.js"
