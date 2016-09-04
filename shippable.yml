@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - 4.0.0
+  - 6.0.0
 
 build:
   ci:
@@ -13,7 +13,7 @@ build:
   on_success:
     - if [ $IS_PULL_REQUEST == false ]; then
       docker build -t="scriptnull/vici:latest" . ;
-      docker push scriptnull/vici:latest
+      docker push scriptnull/vici:latest ;
       fi
 
 integrations:
