@@ -13,7 +13,13 @@ build:
   on_success:
     - if [ $IS_PULL_REQUEST == false ]; then
       docker build -t="scriptnull/vici:latest" . ;
+      docker push scriptnull/vici:latest
       fi
 
-  on_failure:
-    - echo "failure"
+integrations:
+  hub:
+    - integrationName: Vishnu's Docker
+      type: docker
+      branches:
+        only:
+          - master
