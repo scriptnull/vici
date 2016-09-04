@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/scriptnull/vici#readme",
   "dependencies": {
+    "async": "^2.0.1",
     "hapi": "^15.0.2",
     "hapi-status": "^2.1.0",
     "js-yaml": "^3.6.1",

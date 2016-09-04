@@ -1,3 +1,16 @@
 actions:
   - name: echoHello
     script: "./tests/data/echoHello.sh"
+    # on_success:
+    #   - do: notify-gitter
+    #     payload:
+    #       url: "https://webhooks.gitter.im/e/e2ec1e9d7235aed750d2"
+    #       message: 'Successfully completed echoHello'
+    # on_failure:
+    #   - do: notify-gitter
+    #     payload:
+    #       url: "https://webhooks.gitter.im/e/e2ec1e9d7235aed750d2"
+    #       message: 'Failed to complete echoHello'
+
+  - name: notify-gitter
+    script: "./scripts/notify-gitter.js"

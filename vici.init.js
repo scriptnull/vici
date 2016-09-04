@@ -43,7 +43,8 @@ try {
 
       vici.config.actionRoutes = {
         actionYmls: yml.actions,
-        viciSecret: process.env.VICI_SECRET || vici.defaults.server.viciSecret
+        viciSecret: process.env.VICI_SECRET || vici.defaults.server.viciSecret,
+        viciPort: process.env.VICI_PORT || vici.defaults.server.viciPort
       }
 
       vici.config.server = {

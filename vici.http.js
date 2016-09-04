@@ -8,9 +8,9 @@ module.exports = function (config) {
     config.url
   )
 
-  _.each(config.headers,
+  _.each(_.keys(config.headers),
     function (header) {
-      request.set(header.key, header.value)
+      request.set(header, config.headers[header])
     }
   )
 
