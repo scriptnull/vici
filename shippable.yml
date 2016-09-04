@@ -9,3 +9,8 @@ build:
     - npm start &
     - sleep 2s
     - npm test
+    - if [ $IS_PULL_REQUEST == false ]; then echo "is pull request"; fi
+  on_success:
+    - echo "success"
+  on_failure:
+    - echo "failure"
