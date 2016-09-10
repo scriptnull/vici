@@ -1,8 +1,11 @@
 {
   "name": "vici",
   "version": "1.0.0",
-  "description": "Docker Deployment for side projects :rocket:",
-  "main": "server.js",
+  "description": "Your webhook robot :ribbon:",
+  "main": "vici.init.js",
+  "bin": {
+    "vici": "vici.init.js"
+  },
   "scripts": {
     "test": "mocha tests/",
     "start": "node vici.init.js",

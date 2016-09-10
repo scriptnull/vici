@@ -4,12 +4,12 @@ actions:
     # on_success:
     #   - do: notify-gitter
     #     payload:
-    #       url: "https://webhooks.gitter.im/e/e2ec1e9d7235aed750d2"
+    #       url: ""
     #       message: 'Successfully completed echoHello'
     # on_failure:
     #   - do: notify-gitter
     #     payload:
-    #       url: "https://webhooks.gitter.im/e/e2ec1e9d7235aed750d2"
+    #       url: ""
     #       message: 'Failed to complete echoHello'
 
   - name: notify-gitter
