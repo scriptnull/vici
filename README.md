@@ -4,3 +4,28 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/scriptnull/vici.svg?maxAge=2592000)](https://hub.docker.com/r/scriptnull/vici/)
 
 Your webhook robot :ribbon:
+
+# Install
+
+### via git
+```bash
+# with ssh
+git clone git@github.com:scriptnull/vici.git
+
+# with https
+git clone https://github.com/scriptnull/vici.git
+
+npm install
+
+npm start
+```
+
+### via docker
+```bash
+docker run -p 4454:4454 -e VICI_SECRET="top_secret_key" scriptnull/vici:latest
+```
+
+### Configure
+You can tell vici to perform some action by sending HTTP requests. 
+
+
