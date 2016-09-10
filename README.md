@@ -77,8 +77,6 @@ vici settings can be changed by changing appropriate environment variables.
 | VICI_SECRET   | secret phrase to authenticate with vici | my_simple_vici_secret |
 
 # Advanced
-This section covers some advanced features and discussions.
-
 ### Handling success and failures
 vici can execute some other actions specified in the yml, in case of success or failure of one action.
 
@@ -110,7 +108,7 @@ If `echoHello` is success, it will trigger the actions in `on_success` serially.
 ### docker - cooking
 `scriptnull/vici` image is built on top of `debian` installed with `node.js`. So, you should be able to execute bash, python, node.js etc. scripts. If you are using `docker`, this gets even more fun. You can cook the flavour of vici, you want.
 
-Lets cook a flavour of vici, that could exceute ruby scripts.
+Dockerfile for cooking flavour of vici, that could exceute ruby scripts looks like this
 
 ```Dockerfile
 FROM scriptnull/vici:latest
