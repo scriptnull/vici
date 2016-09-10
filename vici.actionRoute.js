@@ -18,7 +18,7 @@ module.exports = function (config) {
           return status.unauthorized(reply, 'Authorization failed.')
         }
 
-        action.on_success = _.map(action.on_success, function (action) {
+        var on_success = _.map(action.on_success, function (action) {
           var url = 'http://localhost:' + config.viciPort + '/do/' + action.do
           return {
             url: url,
@@ -30,7 +30,7 @@ module.exports = function (config) {
           }
         })
 
-        action.on_failure = _.map(action.on_failure, function (action) {
+        var on_failure = _.map(action.on_failure, function (action) {
           var url = 'http://localhost:' + config.viciPort + '/do/' + action.do
           return {
             url: url,
@@ -50,9 +50,9 @@ module.exports = function (config) {
           callback: function (exitCode) {
             // call outHooks here
             if (exitCode === 0 && !_.isEmpty(action.on_success)) {
-              executors.afterExec(action.on_success)
+              executors.afterExec(on_success)
             } else if (!_.isEmpty(action.on_failure)) {
-              executors.afterExec(action.on_failure)
+              executors.afterExec(on_failure)
             }
           }
         })
