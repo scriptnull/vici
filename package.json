@@ -1,7 +1,7 @@
 {
   "name": "vici",
   "version": "1.0.0",
-  "description": "Your webhook robot :ribbon:",
+  "description": "Your webhook robot",
   "main": "vici.init.js",
   "bin": {
     "vici": "vici.init.js"
