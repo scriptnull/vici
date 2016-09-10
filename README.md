@@ -5,6 +5,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
 [![Docker Pulls](https://img.shields.io/docker/pulls/scriptnull/vici.svg?maxAge=2592000)](https://hub.docker.com/r/scriptnull/vici/)
 [![vici](https://img.shields.io/badge/robot-vici-orange.svg)](https://github.com/scriptnull/vici)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 Your webhook robot :ribbon:
 
