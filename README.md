@@ -6,7 +6,7 @@
 
 Your webhook robot :ribbon:
 
-> Named after vici ( Pronounced Vicky ) from ( [Small Wonder TV series](https://en.wikipedia.org/wiki/Small_Wonder_(TV_series)) ). You are the best.
+> Named after vici ( Pronounced Vicky ) from [Small Wonder TV series](https://en.wikipedia.org/wiki/Small_Wonder_(TV_series)). You are the best.
 
 # Install
 
