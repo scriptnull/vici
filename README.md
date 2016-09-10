@@ -6,7 +6,7 @@
 
 Your webhook robot :ribbon:
 
-> Named after vici ( Pronounced Vicky ) from [Small Wonder TV series](https://en.wikipedia.org/wiki/Small_Wonder_(TV_series)). You are the best.
+> Named after vici ( Pronounced Vicky ) from [Small Wonder TV series](https://en.wikipedia.org/wiki/Small_Wonder_(TV_series)).
 
 # Install
 
@@ -69,6 +69,12 @@ echo "Hello world"
 echo "payload is $1" 
 echo "query is $2"
 ```
+
+# Security
+For now, all your requests to vici server must contain the VICI_SECRET as a  query parameter or header.
+
+- query - `POST /do/echoHello?secret=my_simple_vici_secret`
+- header - `X-VICI-SECRET : my_simple_vici_secret`
 
 # Settings
 vici settings can be changed by changing appropriate environment variables.
