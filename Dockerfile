@@ -1,4 +1,4 @@
-FROM docker.1.12.node.4.5.0
+FROM scriptnull/debian:docker.1.12.node.4.5.0
 
 MAINTAINER Vishnu Bharathi "vishnubharathi04@gmail.com"
 
