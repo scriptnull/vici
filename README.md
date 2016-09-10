@@ -130,4 +130,17 @@ docker run -p 4454:4454  -v /var/run/docker.sock:/var/run/docker.sock scriptnull
 This is useful for cases, where vici is used to automate deployments via docker.
 
 
+# Contributing
+Always welcome.
 
+# Thanks
+Thanks for taking time to check `vici` and reaching till here.
+
+# Badge
+If you are using vici in your stack, for automating deployments, remote execution etc. Support `vici` project by adding a badge in your project.
+
+[![vici](https://img.shields.io/badge/robot-vici-orange.svg)](https://github.com/scriptnull/vici)
+
+```
+[![vici](https://img.shields.io/badge/robot-vici-orange.svg)](https://github.com/scriptnull/vici)
+```
